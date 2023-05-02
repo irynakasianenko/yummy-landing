@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1920px;
+	margin: auto;
+}
+
+header {
+	max-width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}

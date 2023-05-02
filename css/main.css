@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+	box-sizing: border-box;
+	margin: 0;	
+	font-family: 'Montserrat', sans-serif;
+	color: #774E2E;
+}
+
+body p, a {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 110px;
+	font-weight: 800;
+	color: #F37F34;
+}
+
+h2 {
+	font-size: 72px;
+	font-weight: 800;
+	color: #F37F34;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #774E2E;
+}
+
+span {
+	color: #774E2E;
+}
+
+.container {
+	max-width: 1920px;
+	margin: auto;
+}
+
+header {
+	max-width: 1170px;
+	height: 79px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header .refferences {
+	padding: 30px 0;
+}
+
+header .refferences a {
+	text-decoration: none;
+	padding-left: 50px;
+	letter-spacing: 0.01em;
+}
+
+header .refferences a:hover {
+	text-shadow: 1px 1px 1px #774E2E;
+}
+
+main section.greeting {
+	max-width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 150px 0;
+}
+
+main section.greeting img {
+	width: 50%;
+	padding-right: 20px;
+}
+
+main section.greeting .about {
+	width: 50%;
+}
+
+main section.greeting .about h2.pug {
+	margin-bottom: 40px;
+}
+
+main section.greeting .about a {
+	display: block;
+	font-size: 20px;
+	color: #ffffff;
+	width: 343px;
+	height: 69px;
+	background-color: #774E2E;
+	margin-top: 50px;
+	padding: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+main section.greeting .about a:hover {
+	background-color: #b4957e;
+}
+
+main section.sweets {
+	background-color: #FFF9EA;
+	padding: 150px 0;
+}
+
+main section.sweets h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom:70px;
+}
+
+main section.sweets .products {
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+main section.sweets .products .product {
+	width: 370px;
+	height: 462px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+}
+
+main section.sweets .products .product:hover {
+	border: 3px solid #774E2E;
+}
+
+main section.sweets .products .product h3 {
+	padding: 36px 0 15px 0;
+}
+
+main section.advice {
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 150px 0;
+}
+
+main section.advice .text {
+	width: 50%;
+}
+
+main section.advice img {
+	width: 50%;
+}
+
+main section.advice .text p {
+	padding: 30px 0 60px 0;
+}
+
+main section.advice ul {
+	line-height: 24px;
+	padding-top: 20px;
+}
+
+footer {
+	background-color: #774E2E;
+}
+
+footer .container {
+	width: 1170px;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .container p {
+	color: #ffffff;
+	font-size: 36px;
+	padding: 3% 10px;
+}
